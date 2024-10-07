@@ -1,0 +1,35 @@
+# 230_Ian-Frissaad-
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int tinggi, lebar;
+    char bentuk;
+
+    cout << "Selamat datang di program pembuatan rumah!" << endl;
+
+    cout << "Masukkan tinggi rumah (dalam satuan meter): ";
+    cin >> tinggi;
+
+    cout << "Masukkan lebar rumah (dalam satuan meter): ";
+    cin >> lebar;
+
+    cout << "Pilih bentuk rumah (L untuk persegi panjang, S untuk segitiga): ";
+    cin >> bentuk;
+
+    if (bentuk == 'L' || bentuk == 'l') {
+        cout << "Anda memilih rumah berbentuk persegi panjang." << endl;
+
+        cout << "Luas rumah: " << tinggi * lebar << " meter persegi." << endl;
+    } else if (bentuk == 'S' || bentuk == 's') {
+        cout << "Anda memilih rumah berbentuk segitiga." << endl;
+
+        cout << "Luas rumah: " << 0.5 * tinggi * lebar << " meter persegi." << endl;
+    } else {
+
+        cout << "Bentuk rumah tidak dikenali!" << endl;
+    }
+
+    return 0;
+}
