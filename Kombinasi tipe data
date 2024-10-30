@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int umur = 25;          
+    float tinggi = 175.5;   
+    char inisial = 'B';     
+    bool menikah = false; 
+
+    cout << "Umur: " << umur << endl;
+    cout << "Tinggi: " << tinggi << " cm" << endl;
+    cout << "Inisial: " << inisial << endl;
+    cout << "Status Menikah: " << (menikah ? "Ya" : "Tidak") << endl;
+
+    return 0;
+}
