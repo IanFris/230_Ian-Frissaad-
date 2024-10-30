@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    char inisial = 'A';
+    cout << "Inisial nama saya: " << inisial << endl;
+    return 0;
+}
