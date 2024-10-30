@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    bool lulus = true;
+    if (lulus) {
+        cout << "Status: Lulus" << endl;
+    } else {
+        cout << "Status: Tidak Lulus" << endl;
+    }
+    return 0;
+}
