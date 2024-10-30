@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double jarak = 12345.6789;
+    cout << "Jarak perjalanan: " << jarak << " meter" << endl;
+    return 0;
+}
