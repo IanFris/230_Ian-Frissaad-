@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    const float pi = 3.14159; 
+    float radius = 10.0;
+    float luas = pi * radius * radius;  
+    cout << "Luas lingkaran dengan radius " << radius << " adalah " << luas << endl;
+    return 0;
+}
